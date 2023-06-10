@@ -1,0 +1,93 @@
+#navbar #nav-links, #navbar #logo {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  font-family: "Josefin Sans", Arial, sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+/*Styles for the navigation bar.*/
+#navbar {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 200px auto;
+  height: 50px;
+}
+#navbar #logo {
+  font-weight: 700;
+  padding-left: 30px;
+  color: black;
+}
+#navbar #nav-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar #nav-links ul li {
+  float: right;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#navbar #nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+#navbar #nav-links ul li a:hover {
+  border-bottom: 2px solid black;
+}
+
+/*Styles for the info section*/
+.info {
+  margin: 20px 30px;
+  padding: 20px 25px;
+}
+.info p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Josefin Sans", Arial, sans-serif;
+}
+.info p span {
+  color: rgb(33, 49, 70);
+  font-weight: 700;
+}
+
+/*Styles for the media section.*/
+.media {
+  margin: 20px 30px;
+  padding: 20px 25px;
+}
+.media h1 {
+  font-size: 40px;
+  color: rgb(33, 49, 70);
+  text-align: center;
+  font-family: "Josefin Sans", Arial, sans-serif;
+}
+.media p {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  font-family: "Old Standard TT", "Times New Roman", serif;
+}
+
+footer {
+  margin: 20px 30px;
+  padding: 20px 25px;
+  border-top: 1px solid rgb(33, 49, 70);
+}
+footer p {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-family: "Old Standard TT", "Times New Roman", serif;
+}
+footer p span {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
